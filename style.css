@@ -1,0 +1,83 @@
+
+/* Body */
+.main-image {
+    display: block;
+    margin: 0 auto;
+}
+
+.bibliography {
+    display :flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 250px;
+
+}
+ 
+.bibliography h2 {
+    font-size: 40px;
+}
+.bibliography p {
+    font-size: 20px;
+    margin-top: -10px;
+    text-align: center;
+}
+
+.Hobbies {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 250px;
+}
+
+.Hobbies {
+    text-align: center;
+}
+
+.Experience {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-top: -578px;
+    margin-left: 250px;
+
+    padding: 5%;
+}
+
+.Experience h2 {
+    margin-top: -15px;
+}
+
+.Experience p {
+    margin-bottom: -5px;
+}
+
+.Experience {
+    text-align: center;
+}
+
+.Projects {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-right: 435px
+}
+
+.Projects {
+    text-align: center;
+}
+
+#contacts {
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    margin-left: 252px;
+    margin-top: 1px;
+    padding-bottom:7px;
+}
+
+#contacts{
+    font-size: 25px;
+}
