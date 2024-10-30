@@ -7,15 +7,24 @@
     <link rel = "stylesheet" href = "style.css" >
 </head>
 <body>
-    <h1 style ="text-align: center;"> Ethan Goldstraw</h1>
+    <div class = "contacts">
+    <h1 class = "Ethan" style ="text-align: center;" > Ethan Goldstraw</h1>
+    <h4 style = "text-align: end;"> <a href = public/contact.html > Contact Me</a> </h4>
+    </div>
     <hr></hr>
 
-    <img class ="main-image" src = "images/blank-profile-picture-973460_1280.webp" height = 300 />
+    <div class = "main-image">
+    <li class = "sfu" ><img src = "images/sfu-image.png" height = 80 /> 
+    <h2> <a href = public/education.html> Education </a> </h2> </li>
+    <li><img src = "images/blank-profile-picture-973460_1280.webp" height = 300 /></li>
+    
+    </div>
+        
     <hr></hr>
 
     <div class = "bibliography">
-        <h2>Bio</h2>
-        <p> 
+        <h2 style = "text-align: center;">Bio</h2>
+        <p style = "text-align: center;"> 
             Ethan Goldstraw a 19 year old male born in Vancouver, BC. is currently in his second year 
             studying at  Simon Fraser University.  He enjoys playing and watching sports, 
             and spending time with family and friends.  He obtained a black belt in Taekwondo and 
@@ -24,27 +33,33 @@
         </p>
     </div>
 
+    <h2 class = "HHobbies" style = "text-align: center;"> Hobbies and Interests </h2>
     <div class = "Hobbies">
-        <h2> Hobbies and Interests </h2>
-        <ul>
-        <h4> <li><a href = "public/Hockey.html" > Watching Hockey </a> </h4> </li>
-        <h4> <li> <a href = "public/Games.html"> Video Games </h4> </li>
-        <h4> <li> <a href = "public/Dog.html"> My Dog </h4> </li>
-        </ul>
+        <li><img class ="hobby-image" src = "https://media.d3.nhle.com/image/private/t_ratio16_9-size50/v1697721401/prd/assets/canucks/assets/van_2568x1144.png" height = 75px />
+            <a  href = public/Hockey.html> Watching Sports</a></li>
+        <li><img class = "hobby-image" src = "public/IMG_6630.jpg" height = 75px width = 75/>
+            <a href = public/Dog.html> My Dog</a></li>
+        <li><img class = "hobby-image" id = "dog" src = "https://i5.walmartimages.com/asr/576bb107-4a84-4dbb-a550-ac30c6790a31.c7a7b29d39c8033b5c452a8dbad5c158.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF" height = 75px /> 
+            <a href = public/Games.html> Video Games</a></li>
     </div>
 
-    <div class = "Projects">
-        <h2>Projects</h2>
+    <div class = "PandL">
+        <div class = "projects"> 
+        <h2><a href = public/projects.html > Projects</a></h2>
         <h4> <ul> <li><a href = https://github.com/CMPT-276-FALL-2024/project-01-sky > FitCheck (In Progress) </a> </li>
              </ul> 
         </h4>
-        <h2> Languages</h2>
-        <ol> 
-            <li> Python </li>
-            <li> C++  </li>
-            <li> HTML </li>
-            <li> CSS </li>
-        </ol>
+         </div>
+
+         <div class = "languages">
+            <h2> Languages</h2>
+            <ol> 
+                <li> Python </li>
+                <li> C++  </li>
+                <li> HTML </li>
+                <li> CSS </li>
+            </ol>
+        </div>
     </div>
 
     <div class = "Experience" > 
@@ -68,8 +83,7 @@
         </p>
     </div>
  
-    <h4 id = "contacts" > <a href = public/contact.html > Contact Me</a> </h4>
-    <hr></hr>
+
 
 </body>
 </html>
