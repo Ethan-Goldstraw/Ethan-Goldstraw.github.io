@@ -8,8 +8,10 @@
 .main-image {
     display: flex;
     list-style: none;
-    gap:40px;
+
 }
+
+
 
 .Ethan{
     color:red
